@@ -1,0 +1,27 @@
+:root {
+  --navy: #182747;
+  --brown: #562B08;
+  --green: #647E68;
+  --gray: #D8D8D8;
+}
+body {
+  margin: 0;
+  color: #000;
+  font-family: "Quicksand";
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-family: "Nosifer";
+  letter-spacing: 0.2rem;
+}
+
+h2 {
+  font-family: "Secular One";
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}

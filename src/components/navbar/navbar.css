@@ -1,0 +1,40 @@
+#navbar {
+    padding: 0px 50px;
+}
+
+.li {
+    color: white;
+}
+
+#pristina-logo {
+    width: 15%;
+}
+
+.drdown {
+    align-items: left;
+}
+
+.nav_link {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 5px;
+}
+
+.tiktok_icon {
+    color: black;
+}
+
+.instagram_icon {
+    color: rgb(221, 98, 118);
+}
+
+.logout_btn {
+    cursor: pointer;
+}
+
+@media (max-width: 1028px) {
+    #navbar {
+        padding: 0px 15px;
+    }
+}
+
