@@ -8,9 +8,9 @@ function Footer() {
 
         <div className='row footer_row'>
             <div className='col_12 col-12'>
-                <h2>How it works?</h2>
-                <p>It’s Affiliating Marketing, for every purchase made by you, I get a commission from Amazon as a marketer.</p>
-                <h1>Check out products & shop a lot!</h1>
+                <h2>Disclaimer: </h2>
+                <p>As an Amazon Associate, I earn from qualifying purchases. This means that if you click on a link and make a purchase, I may earn a small commission at no extra cost to you.</p>
+                <h1>Don’t miss out <br /><br /> shop the best deals now!</h1>
             </div>
             </div>
 
