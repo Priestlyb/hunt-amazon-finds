@@ -22,7 +22,7 @@ function Products() {
   }, []);
 
   useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false), 4000);
+    const timer = setTimeout(() => setIsLoading(false));
     return () => clearTimeout(timer);
   }, []);
 
