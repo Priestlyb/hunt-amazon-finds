@@ -16,15 +16,12 @@ function Products() {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    fetchHandler().then((data) => {
-      setProducts(data.products || []);
-    });
-  }, []);
+  fetchHandler().then((data) => {
+    setProducts(data.products || []);
+    setIsLoading(false); // <-- Stop loading after data is fetched
+  });
+}, []);
 
-  useEffect(() => {
-    const timer = setTimeout(() => setIsLoading(false));
-    return () => clearTimeout(timer);
-  }, []);
 
   // Extract unique categories
   const categories = ['All', ...new Set(products.map(product => product.category))];
